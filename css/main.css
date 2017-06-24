@@ -1,0 +1,47 @@
+/*
+    font-family: 'Orbitron', sans-serif;
+*/
+
+* {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+}
+
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid darkgray;
+}
+
+table tr:last-child td:first-child {
+    text-align: left;
+    padding-left: 31px;
+}
+
+#display {
+    background: #989898;
+    color: #ffffff;
+    padding-right: 15px;
+    text-align: right;
+}
+
+.operator {
+    background-color: #F6872C;
+    color: white;
+}
+
+.clear {
+    background: #D6D6D6;
+}
+
+.digit {
+    background: #E0E0E0;
+}
